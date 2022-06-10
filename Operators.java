@@ -13,9 +13,10 @@ public class Operators {
         //var result = f + d; // If we add float and double, the result is double
         //var result = l + d;
 
+
         //var result = i * f; // If we multiply int and float the result is float;
         //var result = l / d;
-        var result = l % f;
+        var result = d % f;
 
         // Consequently if one operand is float or double with operators, result must be float or double.
         System.out.println(result);
