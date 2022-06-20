@@ -1,8 +1,7 @@
 public class PrimeNumbers2 {
     public static void main(String[] args) {
         PrimeNumbers2 obj = new PrimeNumbers2();
-        //obj.findPrimeNumbers(7);
-
+        obj.findPrimeNumbers(7);
     }
 
     public void findPrimeNumbers(int num) {
@@ -27,7 +26,6 @@ public class PrimeNumbers2 {
         for (int i : primeArray) {
             System.out.print(i + " ");
         }
-
     }
 
     int calculatePrimeNumbers(int n) {
