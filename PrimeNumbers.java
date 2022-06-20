@@ -8,8 +8,8 @@ public class PrimeNumbers {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         //System.out.println(number.isPrime(n));
-        //number.calculatePrimeNumbers(n);
-        number.countNumberOfPrimesUpTo(n);
+        number.calculatePrimeNumbers(n);
+        //number.countNumberOfPrimesUpTo(n);
 
     }
     boolean isPrime(int n) {
